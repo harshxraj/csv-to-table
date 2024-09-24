@@ -51,7 +51,7 @@ function App() {
 
       {data.length > 0 && (
         <>
-          <Table color="primary" selectionMode="multiple" aria-label="Example static collection table">
+          <Table color="primary" color="secondary" selectionMode="multiple" aria-label="Example static collection table">
             <TableHeader>{renderTableHeader()}</TableHeader>
             <TableBody>{renderTableRows()}</TableBody>
           </Table>
@@ -60,7 +60,7 @@ function App() {
               isCompact
               showControls
               showShadow
-              color="primary"
+              color="secondary"
               page={page}
               total={pages}
               onChange={(page) => setPage(page)}
