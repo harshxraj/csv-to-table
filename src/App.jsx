@@ -51,7 +51,7 @@ function App() {
 
       {data.length > 0 && (
         <>
-          <Table color="primary" aria-label="Example static collection table">
+          <Table color="primary" selectionMode="multiple" aria-label="Example static collection table">
             <TableHeader>{renderTableHeader()}</TableHeader>
             <TableBody>{renderTableRows()}</TableBody>
           </Table>
